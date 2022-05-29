@@ -1,11 +1,12 @@
 require('dotenv').config()
-
-const Slimbot = require('slimbot');
-const slimbot = new Slimbot(process.env['TELEGRAM_BOT_TOKEN']);
+const TelegramBot = require('node-telegram-bot-api');
+const token = process.env['TELEGRAM_BOT_TOKEN'];
+const bot = new TelegramBot(token, {polling: true});
 
 // Register listeners
-slimbot.on('message', message => {
+bot.onText('/inlinekeyboard', message => {
     // define inline keyboard to send to user
+
     let optionalParams = {
         parse_mode: 'Markdown',
         reply_markup: JSON.stringify({
@@ -23,21 +24,21 @@ slimbot.on('message', message => {
         })
     };
     // reply when user sends a message, and send him our inline keyboard as well
-    slimbot.sendMessage(message.chat.id, 'Message received', optionalParams);
+    bot.sendMessage(message.chat.id, 'Message received', optionalParams);
 });
 
-slimbot.on('edited_message', edited_message => {
+bot.onText('/start', edited_message => {
     // reply when user edits a message
-    slimbot.sendMessage(edited_message.chat.id, 'Message edited');
+    bot.sendMessage(edited_message.chat.id, 'Started');
 });
 
-slimbot.on('callback_query', query => {
+bot.on('message', query => {
     if (query.data === 'hello') {
-        slimbot.sendMessage(query.message.chat.id, 'Hello to you too!');
+        bot.sendMessage(query.message.chat.id, 'Hello!');
     }
 });
 
 // Call API
-slimbot.startPolling();
+bot.startPolling();
 
 console.log('polling...');
