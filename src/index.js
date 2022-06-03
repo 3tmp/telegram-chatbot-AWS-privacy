@@ -53,15 +53,17 @@ bot.on('message', message => {
         if (matches[0]['measure'] === 0) {
             bot.sendMessage(message.chat.id, 'No article found matching the given problem description.');
             return;
-        }
+        } 
 
         let output = ["We've found the following articles that match your description", ""]
 
         matches.forEach(m => {
-            let match = GDPR[m['i']];
-            output.push('*title: *' + match.name);
-            output.push('*gdpr article: *' + match.gdpr_article);
-            output.push("\n");
+            if(m['measure']>0){
+                let match = GDPR[m['i']];
+                output.push('*title: *' + match.name);
+                output.push('*gdpr article: *' + match.gdpr_article);
+                output.push("\n");
+            }         
         })
 
         output.push('\n');
