@@ -1,0 +1,191 @@
+{
+    "1":{
+        "category": "General provisions",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "articles": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    }, 
+    "2":{
+        "category": "Principles",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    },
+    "3":{
+        "category": "Rights of the data subject",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    }, 
+    "4":{
+        "category": "Controller and processor",
+        "keywords": ["list of keywords", ...],
+        "regex": "",        
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    },
+    "5":{
+        "category": "Transfers of personal data to third countries or international organisations",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    }, 
+    "6":{
+        "category": "Independent supervisory authorities",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://.....""
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    },
+    "7":{
+        "category": "Cooperation and consistency",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    }, 
+    "8":{
+        "category": "Remedies, liability and penalties",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name...."
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    },
+    "9":{
+        "category": "Provisions relating to specific processing situations",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "articles": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name...."
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    }, 
+    "10":{
+        "category": "Delegated acts and implementing acts",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    },
+    "11":{
+        "category": "Final provisions",
+        "keywords": ["list of keywords", ...],
+        "regex": "",
+        "sources": [
+            {
+                "name": "name...",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            },
+            {
+                "name": "name....",
+                "gdpr-desciption": "1-2 sentences...",
+                "gdpr-article-link": "http://....."
+            }
+        ]
+    }
+}
+
+

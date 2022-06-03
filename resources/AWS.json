@@ -1,0 +1,19 @@
+{
+    
+    "1":{
+            "gdpr-categories":[1,2,3],
+            "description":"",
+            "aws-solution-link":""
+        },
+    "2":{
+            "gdpr-categories":[1,2,3],
+            "description":"",
+            "aws-solution-link":""
+        },
+    "3":{
+            "gdpr-categories":[1,2,3],
+            "description":"",
+            "aws-solution-link":""
+        }
+
+}
