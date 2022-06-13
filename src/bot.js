@@ -21,6 +21,7 @@ const tokenizedArticles = GDPR.map(article => {
 bot.on('message', message => {
     if (state.current_chats.includes(message.from.id)) {
         console.log(tokenizedArticles);
+
         var tfidf = new TfIdf();
         var tokenizedAndStemmedMsg = natural.PorterStemmer.tokenizeAndStem(message.text);
 
@@ -45,7 +46,7 @@ bot.on('message', message => {
             return 0;
         });
 
-        matches = matches.splice(0, 5);
+        matches = matches.splice(0, 3);
 
         console.log(matches);
 
@@ -96,7 +97,7 @@ bot.on('message', message => {
 });
 
 bot.onText(/\/start/, (msg) => {
-    bot.sendMessage(msg.chat.id, 'Started. Possible commands are: ... - Please send a keyword.');
+    bot.sendMessage(msg.chat.id, 'Started. Please describe your GDPR concerns.');
     console.log('started');
     state.current_chats.push(msg.from.id);
 });
