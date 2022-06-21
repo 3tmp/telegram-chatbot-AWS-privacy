@@ -161,8 +161,9 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-37-designation-of-the-data-protection-officer/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/compliance/data-protection/",
+            "https://aws.amazon.com/privacy/",
+            "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/navigating-gdpr-compliance.pdf"
         ],
     },
     // Art. 38
@@ -178,8 +179,9 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-38-data-protection-officer/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/compliance/data-protection/",
+            "https://aws.amazon.com/privacy/",
+            "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/navigating-gdpr-compliance.pdf"
         ],
     },
     // Art. 39
@@ -196,8 +198,9 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-39-tasks-of-the-data-protection-officer/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/compliance/data-protection/",
+            "https://aws.amazon.com/privacy/",
+            "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/navigating-gdpr-compliance.pdf"
         ],
     },
 
@@ -222,8 +225,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-12-how-controllers-should-provide-personal-data-to-the-subject/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 13
@@ -249,8 +255,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-13-personal-data-collected/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 14
@@ -285,8 +294,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-14-personal-data-not-obtained-from-data-subject/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 15
@@ -308,8 +320,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-15-right-of-access/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 16
@@ -320,8 +335,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-16-right-to-rectification/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 17
@@ -345,8 +363,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-17-right-to-be-forgotten/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 18
@@ -363,8 +384,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-18-right-to-restriction-of-processing/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 19
@@ -375,8 +399,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-19-notification-obligation/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 20
@@ -392,8 +419,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-20-right-to-data-portability/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 21
@@ -409,8 +439,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-21-right-to-object/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 22
@@ -427,8 +460,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-22-automated-individual-decision-making/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
     // Art. 23
@@ -458,8 +494,11 @@ In order to enhance transparency and compliance with this Regulation, the establ
         `,
         gdpr_article: "https://gdpr.eu/article-23-restrictions/",
         aws_solution: [
-            "TODO",
-            "TODO"
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
 ];
