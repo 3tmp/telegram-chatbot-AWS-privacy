@@ -141,6 +141,366 @@ In order to enhance transparency and compliance with this Regulation, the establ
             "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
         ],
     },
+
+    // Data protection officers
+
+    // Art. 37
+    {
+        name: "Designation of the data protection officer",
+        matchText: `
+        The controller and the processor shall designate a data protection officer in any case where:
+        the processing is carried out by a public authority or body, except for courts acting in their judicial capacity;
+        the core activities of the controller or the processor consist of processing operations which, by virtue of their nature, their scope and/or their purposes, require regular and systematic monitoring of data subjects on a large scale; or
+        the core activities of the controller or the processor consist of processing on a large scale of special categories of data pursuant to Article 9 or personal data relating to criminal convictions and offences referred to in Article 10.
+        A group of undertakings may appoint a single data protection officer provided that a data protection officer is easily accessible from each establishment.
+        Where the controller or the processor is a public authority or body, a single data protection officer may be designated for several such authorities or bodies, taking account of their organisational structure and size.
+        In cases other than those referred to in paragraph 1, the controller or processor or associations and other bodies representing categories of controllers or processors may or, where required by Union or Member State law shall, designate a data protection officer. The data protection officer may act for such associations and other bodies representing controllers or processors.
+        The data protection officer shall be designated on the basis of professional qualities and, in particular, expert knowledge of data protection law and practices and the ability to fulfil the tasks referred to in Article 39.
+        The data protection officer may be a staff member of the controller or processor, or fulfil the tasks on the basis of a service contract.
+        The controller or the processor shall publish the contact details of the data protection officer and communicate them to the supervisory authority.
+        `,
+        gdpr_article: "https://gdpr.eu/article-37-designation-of-the-data-protection-officer/",
+        aws_solution: [
+            "https://aws.amazon.com/compliance/data-protection/",
+            "https://aws.amazon.com/privacy/",
+            "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/navigating-gdpr-compliance.pdf"
+        ],
+    },
+    // Art. 38
+    {
+        name: "Position of the data protection officer",
+        matchText: `
+        The controller and the processor shall ensure that the data protection officer is involved, properly and in a timely manner, in all issues which relate to the protection of personal data.
+        The controller and processor shall support the data protection officer in performing the tasks referred to in Article 39 by providing resources necessary to carry out those tasks and access to personal data and processing operations, and to maintain his or her expert knowledge.
+        The controller and processor shall ensure that the data protection officer does not receive any instructions regarding the exercise of those tasks. He or she shall not be dismissed or penalised by the controller or the processor for performing his tasks. The data protection officer shall directly report to the highest management level of the controller or the processor.
+        Data subjects may contact the data protection officer with regard to all issues related to processing of their personal data and to the exercise of their rights under this Regulation.
+        The data protection officer shall be bound by secrecy or confidentiality concerning the performance of his or her tasks, in accordance with Union or Member State law.
+        The data protection officer may fulfil other tasks and duties. The controller or processor shall ensure that any such tasks and duties do not result in a conflict of interests.
+        `,
+        gdpr_article: "https://gdpr.eu/article-38-data-protection-officer/",
+        aws_solution: [
+            "https://aws.amazon.com/compliance/data-protection/",
+            "https://aws.amazon.com/privacy/",
+            "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/navigating-gdpr-compliance.pdf"
+        ],
+    },
+    // Art. 39
+    {
+        name: "Tasks of the data protection officer",
+        matchText: `
+        The data protection officer shall have at least the following tasks:
+        to inform and advise the controller or the processor and the employees who carry out processing of their obligations pursuant to this Regulation and to other Union or Member State data protection provisions;
+        to monitor compliance with this Regulation, with other Union or Member State data protection provisions and with the policies of the controller or processor in relation to the protection of personal data, including the assignment of responsibilities, awareness-raising and training of staff involved in processing operations, and the related audits;
+        to provide advice where requested as regards the data protection impact assessment and monitor its performance pursuant to Article 35;
+        to cooperate with the supervisory authority;
+        to act as the contact point for the supervisory authority on issues relating to processing, including the prior consultation referred to in Article 36, and to consult, where appropriate, with regard to any other matter.
+        The data protection officer shall in the performance of his or her tasks have due regard to the risk associated with processing operations, taking into account the nature, scope, context and purposes of processing.
+        `,
+        gdpr_article: "https://gdpr.eu/article-39-tasks-of-the-data-protection-officer/",
+        aws_solution: [
+            "https://aws.amazon.com/compliance/data-protection/",
+            "https://aws.amazon.com/privacy/",
+            "https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/navigating-gdpr-compliance.pdf"
+        ],
+    },
+
+    // People’s privacy rights
+
+    // Art. 12
+    {
+        name: "Transparent information, communication and modalities for the exercise of the rights of the data subject",
+        matchText: `
+        The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child. The information shall be provided in writing, or by other means, including, where appropriate, by electronic means. When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.
+        The controller shall facilitate the exercise of data subject rights under Articles 15 to 22. In the cases referred to in Article 11(2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.
+        The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request. That period may be extended by two further months where necessary, taking into account the complexity and number of the requests. The controller shall inform the data subject of any such extension within one month of receipt of the request, together with the reasons for the delay. Where the data subject makes the request by electronic form means, the information shall be provided by electronic means where possible, unless otherwise requested by the data subject.
+        If the controller does not take action on the request of the data subject, the controller shall inform the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy.
+        Information provided under Articles 13 and 14 and any communication and any actions taken under Articles 15 to 22 and 34 shall be provided free of charge. Where requests from a data subject are manifestly unfounded or excessive, in particular because of their repetitive character, the controller may either:
+        charge a reasonable fee taking into account the administrative costs of providing the information or communication or taking the action requested; or
+        refuse to act on the request.
+        The controller shall bear the burden of demonstrating the manifestly unfounded or excessive character of the request.
+        
+        Without prejudice to Article 11, where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21, the controller may request the provision of additional information necessary to confirm the identity of the data subject.
+        The information to be provided to data subjects pursuant to Articles 13 and 14 may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner a meaningful overview of the intended processing. Where the icons are presented electronically they shall be machine-readable.
+        The Commission shall be empowered to adopt delegated acts in accordance with Article 92 for the purpose of determining the information to be presented by the icons and the procedures for providing standardised icons.
+        `,
+        gdpr_article: "https://gdpr.eu/article-12-how-controllers-should-provide-personal-data-to-the-subject/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 13
+    {
+        name: "Information to be provided where personal data are collected from the data subject",
+        matchText: `
+        Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:
+        the identity and the contact details of the controller and, where applicable, of the controller's representative;
+        the contact details of the data protection officer, where applicable;
+        the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;
+        where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;
+        the recipients or categories of recipients of the personal data, if any;
+        where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.
+        In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:
+        the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;
+        the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject or to object to processing as well as the right to data portability;
+        where the processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;
+        the right to lodge a complaint with a supervisory authority;
+        whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible consequences of failure to provide such data;
+        the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.
+        Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.
+        Paragraphs 1, 2 and 3 shall not apply where and insofar as the data subject already has the information.
+        `,
+        gdpr_article: "https://gdpr.eu/article-13-personal-data-collected/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 14
+    {
+        name: "Information to be provided where personal data have not been obtained from the data subject",
+        matchText: `
+        Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information:
+        the identity and the contact details of the controller and, where applicable, of the controller’s representative;
+        the contact details of the data protection officer, where applicable;
+        the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;
+        the categories of personal data concerned;
+        the recipients or categories of recipients of the personal data, if any;
+        where applicable, that the controller intends to transfer personal data to a recipient in a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available.
+        In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject:
+        the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;
+        where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;
+        the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability;
+        where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;
+        the right to lodge a complaint with a supervisory authority;
+        from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;
+        the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.
+        The controller shall provide the information referred to in paragraphs 1 and 2:
+        within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed;
+        if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or
+        if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed.
+        Where the controller intends to further process the personal data for a purpose other than that for which the personal data were obtained, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.
+        Paragraphs 1 to 4 shall not apply where and insofar as:
+        the data subject already has the information;
+        the provision of such information proves impossible or would involve a disproportionate effort, in particular for processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, subject to the conditions and safeguards referred to in Article 89(1) or in so far as the obligation referred to in paragraph 1 of this Article is likely to render impossible or seriously impair the achievement of the objectives of that processing. In such cases the controller shall take appropriate measures to protect the data subject’s rights and freedoms and legitimate interests, including making the information publicly available;
+        obtaining or disclosure is expressly laid down by Union or Member State law to which the controller is subject and which provides appropriate measures to protect the data subject’s legitimate interests; or
+        where the personal data must remain confidential subject to an obligation of professional secrecy regulated by Union or Member State law, including a statutory obligation of secrecy.
+        `,
+        gdpr_article: "https://gdpr.eu/article-14-personal-data-not-obtained-from-data-subject/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 15
+    {
+        name: "Right of access by the data subject",
+        matchText: `
+        The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:
+        the purposes of the processing;
+        the categories of personal data concerned;
+        the recipients or categories of recipient to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organisations;
+        where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;
+        the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing;
+        the right to lodge a complaint with a supervisory authority;
+        where the personal data are not collected from the data subject, any available information as to their source;
+        the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.
+        Where personal data are transferred to a third country or to an international organisation, the data subject shall have the right to be informed of the appropriate safeguards pursuant to Article 46 relating to the transfer.
+        The controller shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.
+        The right to obtain a copy referred to in paragraph 3 shall not adversely affect the rights and freedoms of others.
+        `,
+        gdpr_article: "https://gdpr.eu/article-15-right-of-access/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 16
+    {
+        name: "Right to rectification",
+        matchText: `
+        The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.
+        `,
+        gdpr_article: "https://gdpr.eu/article-16-right-to-rectification/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 17
+    {
+        name: "Right to erasure ('right to be forgotten')",
+        matchText: `
+        The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:
+        the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;
+        the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;
+        the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2);
+        the personal data have been unlawfully processed;
+        the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject;
+        the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).
+        Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data.
+        Paragraphs 1 and 2 shall not apply to the extent that processing is necessary:
+        for exercising the right of freedom of expression and information;
+        for compliance with a legal obligation which requires processing by Union or Member State law to which the controller is subject or for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;
+        for reasons of public interest in the area of public health in accordance with points (h) and (i) of Article 9(2) as well as Article 9(3);
+        for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) in so far as the right referred to in paragraph 1 is likely to render impossible or seriously impair the achievement of the objectives of that processing; or
+        for the establishment, exercise or defence of legal claims.
+        `,
+        gdpr_article: "https://gdpr.eu/article-17-right-to-be-forgotten/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 18
+    {
+        name: "Right to restriction of processing",
+        matchText: `
+        The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies:
+        the accuracy of the personal data is contested by the data subject, for a period enabling the controller to verify the accuracy of the personal data;
+        the processing is unlawful and the data subject opposes the erasure of the personal data and requests the restriction of their use instead;
+        the controller no longer needs the personal data for the purposes of the processing, but they are required by the data subject for the establishment, exercise or defence of legal claims;
+        the data subject has objected to processing pursuant to Article 21(1) pending the verification whether the legitimate grounds of the controller override those of the data subject.
+        Where processing has been restricted under paragraph 1, such personal data shall, with the exception of storage, only be processed with the data subject’s consent or for the establishment, exercise or defence of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the Union or of a Member State.
+        A data subject who has obtained restriction of processing pursuant to paragraph 1 shall be informed by the controller before the restriction of processing is lifted.
+        `,
+        gdpr_article: "https://gdpr.eu/article-18-right-to-restriction-of-processing/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 19
+    {
+        name: "Notification obligation regarding rectification or erasure of personal data or restriction of processing",
+        matchText: `
+        The controller shall communicate any rectification or erasure of personal data or restriction of processing carried out in accordance with Article 16, Article 17(1) and Article 18 to each recipient to whom the personal data have been disclosed, unless this proves impossible or involves disproportionate effort. The controller shall inform the data subject about those recipients if the data subject requests it.
+        `,
+        gdpr_article: "https://gdpr.eu/article-19-notification-obligation/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 20
+    {
+        name: "Right to data portability",
+        matchText: `
+        The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where:
+        the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and
+        the processing is carried out by automated means.
+        In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible.
+        The exercise of the right referred to in paragraph 1 of this Article shall be without prejudice to Article 17. That right shall not apply to processing necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller.
+        The right referred to in paragraph 1 shall not adversely affect the rights and freedoms of others.
+        `,
+        gdpr_article: "https://gdpr.eu/article-20-right-to-data-portability/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 21
+    {
+        name: "Right to object",
+        matchText: `
+        The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions. The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.
+        Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.
+        Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.
+        At the latest at the time of the first communication with the data subject, the right referred to in paragraphs 1 and 2 shall be explicitly brought to the attention of the data subject and shall be presented clearly and separately from any other information.
+        In the context of the use of information society services, and notwithstanding Directive 2002/58/EC, the data subject may exercise his or her right to object by automated means using technical specifications.
+        Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89(1), the data subject, on grounds relating to his or her particular situation, shall have the right to object to processing of personal data concerning him or her, unless the processing is necessary for the performance of a task carried out for reasons of public interest.
+        `,
+        gdpr_article: "https://gdpr.eu/article-21-right-to-object/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 22
+    {
+        name: "Automated individual decision-making, including profiling",
+        matchText: `
+        The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.
+        Paragraph 1 shall not apply if the decision:
+        is necessary for entering into, or performance of, a contract between the data subject and a data controller;
+        is authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject’s rights and freedoms and legitimate interests; or
+        is based on the data subject’s explicit consent.
+        In the cases referred to in points (a) and (c) of paragraph 2, the data controller shall implement suitable measures to safeguard the data subject’s rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision.
+        Decisions referred to in paragraph 2 shall not be based on special categories of personal data referred to in Article 9(1), unless point (a) or (g) of Article 9(2) applies and suitable measures to safeguard the data subject’s rights and freedoms and legitimate interests are in place.
+        `,
+        gdpr_article: "https://gdpr.eu/article-22-automated-individual-decision-making/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
+    // Art. 23
+    {
+        name: "Restrictions",
+        matchText: `
+        Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 22 and Article 34, as well as Article 5 in so far as its provisions correspond to the rights and obligations provided for in Articles 12 to 22, when such a restriction respects the essence of the fundamental rights and freedoms and is a necessary and proportionate measure in a democratic society to safeguard:
+        national security;
+        defence;
+        public security;
+        the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security;
+        other important objectives of general public interest of the Union or of a Member State, in particular an important economic or financial interest of the Union or of a Member State, including monetary, budgetary and taxation a matters, public health and social security;
+        the protection of judicial independence and judicial proceedings;
+        the prevention, investigation, detection and prosecution of breaches of ethics for regulated professions;
+        a monitoring, inspection or regulatory function connected, even occasionally, to the exercise of official authority in the cases referred to in points (a) to (e) and (g);
+        the protection of the data subject or the rights and freedoms of others;
+        the enforcement of civil law claims.
+        In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:
+        the purposes of the processing or categories of processing;
+        the categories of personal data;
+        the scope of the restrictions introduced;
+        the safeguards to prevent abuse or unlawful access or transfer;
+        the specification of the controller or categories of controllers;
+        the storage periods and the applicable safeguards taking into account the nature, scope and purposes of the processing or categories of processing;
+        the risks to the rights and freedoms of data subjects; and
+        the right of data subjects to be informed about the restriction, unless that may be prejudicial to the purpose of the restriction.
+        `,
+        gdpr_article: "https://gdpr.eu/article-23-restrictions/",
+        aws_solution: [
+            "https://aws.amazon.com/privacy/",
+            "https://aws.amazon.com/blogs/enterprise-strategy/data-protection-in-aws/",
+            "https://aws.amazon.com/compliance/privacy-features/",
+            "https://aws.amazon.com/compliance/data-privacy-faq/",
+            "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
+        ],
+    },
 ];
 
 module.exports = GDPR;
