@@ -501,6 +501,89 @@ In order to enhance transparency and compliance with this Regulation, the establ
             "https://aws.amazon.com/blogs/big-data/handling-data-erasure-requests-in-your-data-lake-with-amazon-s3-find-and-forget/",
         ],
     },
+    {
+        name: "Data protection principles",
+        matchText: `
+        Principles relating to processing of personal data
+        1. Personal data shall be: \n
+        \t a. processed lawfully, fairly and in a transparent manner in relation to the data subject (‘lawfulness, fairness and transparency’); \n
+        \t b. collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’); \n
+        \t c. adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (‘data minimisation’); \n
+        \t d. accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’); \n
+        \t e. kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed;
+		personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject (‘storage limitation’);\n
+        \t f. processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (‘integrity and confidentiality’). \n
+        2. The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’). \n`,
+        gdpr_article: "https://gdpr.eu/article-5-how-to-process-personal-data/",
+        aws_solution: ["https://aws.amazon.com/compliance/data-privacy/", "https://d1.awsstatic.com/whitepapers/Security/navigating-compliance-with-eu-data-transfer-requirements.pdf"],
+    },
+    {
+        name: "Conditions of consent",
+        matchText: `
+        Conditions for consent
+        Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.
+        If the data subject’s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language. Any part of such a declaration which constitutes an infringement of this Regulation shall not be binding.
+        The data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Prior to giving consent, the data subject shall be informed thereof. It shall be as easy to withdraw as to give consent.
+        When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.`,
+        gdpr_article: "https://gdpr.eu/article-7-how-to-get-consent-to-collect-personal-data/",
+        aws_solution: ["https://aws.amazon.com/agreement/", "https://d1.awsstatic.com/legal/aws-gdpr/AWS_GDPR_DPA.pdf"],
+    },
+    {
+        name: "Processing of personal data",
+        matchText: `
+        Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person’s sex life or sexual orientation shall be prohibited.
+        Paragraph 1 shall not apply if one of the following applies:
+            the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;
+            processing is necessary for the purposes of carrying out the obligations and exercising specific rights of the controller or of the data subject in the field of employment and social security and social protection law in so far as it is authorised by Union or Member State law or a collective agreement pursuant to Member State law providing for appropriate safeguards for the fundamental rights and the interests of the data subject;
+            processing is necessary to protect the vital interests of the data subject or of another natural person where the data subject is physically or legally incapable of giving consent;
+            processing is carried out in the course of its legitimate activities with appropriate safeguards by a foundation, association or any other not-for-profit body with a political, philosophical, religious or trade union aim and on condition that the processing relates solely to the members or to former members of the body or to persons who have regular contact with it in connection with its purposes and that the personal data are not disclosed outside that body without the consent of the data subjects;
+            processing relates to personal data which are manifestly made public by the data subject;
+            processing is necessary for the establishment, exercise or defence of legal claims or whenever courts are acting in their judicial capacity;
+            processing is necessary for reasons of substantial public interest, on the basis of Union or Member State law which shall be proportionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject;
+            processing is necessary for the purposes of preventive or occupational medicine, for the assessment of the working capacity of the employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services on the basis of Union or Member State law or pursuant to contract with a health professional and subject to the conditions and safeguards referred to in paragraph 3;
+            processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices, on the basis of Union or Member State law which provides for suitable and specific measures to safeguard the rights and freedoms of the data subject, in particular professional secrecy;
+            processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) based on Union or Member State law which shall be proportionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject.
+        Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h) of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.
+        Member States may maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health.
+        Processing of personal data relating to criminal convictions and offences or related security measures based on Article 6(1) shall be carried out only under the control of official authority or when the processing is authorised by Union or Member State law providing for appropriate safeguards for the rights and freedoms of data subjects. Any comprehensive register of criminal convictions shall be kept only under the control of official authority.`,
+        gdpr_article: "https://gdpr.eu/article-9-processing-special-categories-of-personal-data-prohibited/",
+        aws_solution: ["https://aws.amazon.com/agreement/", "https://aws.amazon.com/compliance/data-privacy-faq/", "https://d1.awsstatic.com/legal/aws-gdpr/AWS_GDPR_DPA.pdf"],
+    },
+    {
+        name: "Processing which does not require identification",
+        matchText: `
+        If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller, the controller shall not be obliged to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation.
+        Where, in cases referred to in paragraph 1 of this Article, the controller is able to demonstrate that it is not in a position to identify the data subject, the controller shall inform the data subject accordingly, if possible. In such cases, Articles 15 to 20 shall not apply except where the data subject, for the purpose of exercising his or her rights under those articles, provides additional information enabling his or her identification.`,
+        gdpr_article: "https://gdpr.eu/article-11-what-personal-data-can-a-controller-process-without-identification/",
+        aws_solution: ["https://aws.amazon.com/agreement/", "https://aws.amazon.com/compliance/data-privacy-faq/", "https://d1.awsstatic.com/legal/aws-gdpr/AWS_GDPR_DPA.pdf"],
+    },
+    {
+        name: "Accountability",
+        matchText: `
+        The GDPR says data controllers have to be able to demonstrate they are GDPR compliant. And this isn’t something you can do after the fact: If you think you are compliant with the GDPR but can’t show how, then you’re not GDPR compliant. Among the ways you can do this:
+		\t - Designate data protection responsibilities to your team.\n
+		\t - Maintain detailed documentation of the data you’re collecting, how it’s used, where it’s stored, which employee is responsible for it, etc.\n
+		\t - Train your staff and implement technical and organizational security measures.\n
+		\t - Have Data Processing Agreement contracts in place with third parties you contract to process data for you.\n
+		\t - Appoint a Data Protection Officer (though not all organizations need one — more on that in this article).\n
+		2. The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’). \n`,
+        gdpr_article: "https://gdpr.eu/article-25-data-protection-by-design/ \n https://gdpr.eu/article-35-impact-assessment/ \n https://gdpr.eu/article-5-how-to-process-personal-data/",
+        aws_solution: ["https://aws.amazon.com/compliance/gdpr-center/", "https://aws.amazon.com/blogs/security/the-aws-shared-responsibility-model-and-gdpr/"],
+    },
+    {
+        name: "Position of the data protection officer",
+        matchText: `
+        The controller and the processor shall ensure that the data protection officer is involved, properly and in a timely manner, in all issues which relate to the protection of personal data.
+        The controller and processor shall support the data protection officer in performing the tasks referred to in Article 39 by providing resources necessary to carry out those tasks and access to personal data and processing operations, and to maintain his or her expert knowledge.
+        The controller and processor shall ensure that the data protection officer does not receive any instructions regarding the exercise of those tasks. He or she shall not be dismissed or penalised by the controller or the processor for performing his tasks. The data protection officer shall directly report to the highest management level of the controller or the processor.
+        Data subjects may contact the data protection officer with regard to all issues related to processing of their personal data and to the exercise of their rights under this Regulation.
+        The data protection officer shall be bound by secrecy or confidentiality concerning the performance of his or her tasks, in accordance with Union or Member State law.
+        The data protection officer may fulfil other tasks and duties. The controller or processor shall ensure that any such tasks and duties do not result in a conflict of interests.`,
+        gdpr_article: "https://gdpr.eu/article-38-data-protection-officer/ and https://ec.europa.eu/newsroom/article29/items/612048",
+        aws_solution: ["https://aws.amazon.com/compliance/gdpr-center/", "https://aws.amazon.com/blogs/security/the-aws-shared-responsibility-model-and-gdpr/"],
+    }
+
+  
 ];
 
 module.exports = GDPR;

@@ -93,7 +93,7 @@ bot.on('message', message => {
             return;
         }
 
-        let output = ["We've found the following articles that match your description", ""]
+        let output = ["I've found the following articles that match your description", ""]
 
         matches.forEach(m => {
             if (m['measure'] > 0) {
@@ -104,7 +104,6 @@ bot.on('message', message => {
             }
         })
 
-        output.push('\n');
         output.push("Would you also like to see the AWS solution for the matched articles ?")
         bot.sendMessage(message.chat.id, output.join('\n'), {
             parse_mode: 'Markdown',
