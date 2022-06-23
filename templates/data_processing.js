@@ -581,9 +581,71 @@ In order to enhance transparency and compliance with this Regulation, the establ
         The data protection officer may fulfil other tasks and duties. The controller or processor shall ensure that any such tasks and duties do not result in a conflict of interests.`,
         gdpr_article: "https://gdpr.eu/article-38-data-protection-officer/ and https://ec.europa.eu/newsroom/article29/items/612048",
         aws_solution: ["https://aws.amazon.com/compliance/gdpr-center/", "https://aws.amazon.com/blogs/security/the-aws-shared-responsibility-model-and-gdpr/"],
+    },
+
+    // Data Security
+    {
+        name: "Security of processing",
+        matchText: `
+	Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:
+	the pseudonymisation and encryption of personal data;
+	the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services;
+	the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident;
+	a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing.
+	In assessing the appropriate level of security account shall be taken in particular of the risks that are presented by processing, in particular from accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal data transmitted, stored or otherwise processed.
+	Adherence to an approved code of conduct as referred to in Article 40 or an approved certification mechanism as referred to in Article 42 may be used as an element by which to demonstrate compliance with the requirements set out in paragraph 1 of this Article.
+	The controller and processor shall take steps to ensure that any natural person acting under the authority of the controller or the processor who has access to personal data does not process them except on instructions from the controller, unless he or she is required to do so by Union or Member State law.`,
+	gdpr_article: "https://gdpr.eu/article-32-security-of-processing/",
+	aws_solution: [
+		"https://aws.amazon.com/de/blogs/security/aws-gdpr-data-processing-addendum/", "https://aws.amazon.com/de/compliance/data-protection/",
+		"https://d1.awsstatic.com/whitepapers/compliance/GDPR_Compliance_on_AWS.pdf"],
+    },
+    {
+        name: "Appropriate technical and organizational measures",
+        matchText: `
+	The protection of the rights and freedoms of natural persons with regard to the processing of personal data require that appropriate technical and organisational measures be taken to ensure that the requirements of this Regulation are met. In order to be able to demonstrate compliance with this Regulation, the controller should adopt internal policies and implement measures which meet in particular the principles of data protection by design and data protection by default. Such measures could consist, inter alia, of minimising the processing of personal data, pseudonymising personal data as soon as possible, transparency with regard to the functions and processing of personal data, enabling the data subject to monitor the data processing, enabling the controller to create and improve security features. When developing, designing, selecting and using applications, services and products that are based on the processing of personal data or process personal data to fulfil their task, producers of the products, services and applications should be encouraged to take into account the right to data protection when developing and designing such products, services and applications and, with due regard to the state of the art, to make sure that controllers and processors are able to fulfil their data protection obligations. The principles of data protection by design and by default should also be taken into consideration in the context of public tenders.`,
+        gdpr_article: "https://gdpr.eu/recital-78-appropriate-technical-and-organisational-measures/",
+        aws_solution: [
+		"https://aws.amazon.com/de/compliance/gdpr-center/",
+		"https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/how-aws-can-help.html",
+		"https://d1.awsstatic.com/whitepapers/compliance/GDPR_Compliance_on_AWS.pdf"],
+    },
+    {
+        name: "Data protection and working remotely",
+        matchText: `
+	These new circumstances demand a different security stance than working from centralized offices. Especially when it comes to maintaining the data security that the GDPR requires. The GDPR, in general, requires that companies keep personal data private and secure.
+	Many employees who are not familiar with data security issues may not grasp how a simple slip-up on their part could lead to a data breach that exposes the personal data you are charged to protect. These data breaches can not only undermine consumer confidence in your company but also lead to costly GDPR fines. 
+        A cybersecurity policy that instructs on how to keep the data safe is an important tool in data protection. Since everyone began working from home, this is the time to do so. A good place to start is by reviewing the NIST cybersecurity framework, which provides with a set of best-practice guidelines for all stages of threat identification and mitigation. 
+        The NIST framework covers five areas, all of which are essential components of a successful cybersecurity framework:
+		- Identify
+			It should develop an understanding of the environment in order to assess the level of cybersecurity risk to systems, assets, data, and capabilities. 
+		- Protect
+			It should develop and implement the appropriate safeguards to limit or contain the impact of a potential cybersecurity event. This involves controlling access to digital and physical assets, but also the responsibility to provide education and training to all employees. 
+		- Detect
+			It should have the ability to identify cybersecurity incidents quickly. This means using a system that can undertake continuous monitoring to detect unusual activity and other threats to operational continuity.
+		- Respond
+			If a cyberattack occurs, organizations must have the ability to contain the impact. This means it will need to have a response plan in place. Once it has resolved your cybersecurity incident, it will need to update the response plan with any lessons learned.
+		- Recover
+			Finally, it should have a plan to restore any capabilities or services that were affected by cybersecurity incidents.
+			Data protection: in transit and at rest:
+			Recital 83 essentially stipulates that personal data must be protected both in transit and at rest. Data is in transit pretty much any time someone accesses it. The data passing from this website’s servers to the device is one example of data in transit. On the other hand, data a rest refers to data in storage, like on the device’s hard drive or a USB flash drive. The two keys to maintaining data protection when teams are all working remotely are encryption and controlling access.
+			Remote security requires encryption:
+			Both Recital 83 and Article 32 of the GDPR explicitly mention “encryption” when discussing appropriate technical and organizational security measures. Encryption is important because if the data is encrypted and there is a breach, the data will be illegible and useless. Keeping sensitive personal data encrypted is much easier in an office, where the cybersecurity team can maintain server security and monitor the network. But there are simple steps the organization can take so that data remains encrypted, even if it is stored on a device at the employee’s home. 
+			Cybersecurity and working remotely:
+			These are the data security steps that can help you avoid costly GDPR fines.
+			The most significant things that it can do to stay GDPR compliant while a team is working from home are: 
+			- Update the cybersecurity policy to reflect the new “working from home” reality.
+			- Train the employees and make sure the cybersecurity team is ready to support them.
+			- Keep data encrypted in transit and at rest.
+			- Limit access to sensitive data and keep the connections secure with a corporate VPN.`,
+        gdpr_article: "https://gdpr.eu/working-remotely-data-security/",
+        aws_solution: [
+		"https://docs.aws.amazon.com/de_de/vpn/latest/clientvpn-admin/cvpn-working-endpoints.html",
+		"https://docs.aws.amazon.com/de_de/vpn/latest/clientvpn-admin/client-vpn-admin-guide.pdf#cvpn-working-endpoints",
+		"https://docs.aws.amazon.com/de_de/vpc/latest/peering/what-is-vpc-peering.html",
+		"https://docs.aws.amazon.com/de_de/vpn/latest/clientvpn-admin/how-it-works.html"],
     }
 
-  
 ];
 
 module.exports = GDPR;
