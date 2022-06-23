@@ -57,6 +57,7 @@ In any case, it's much less painful to sign a data processing agreement and adhe
     {
         name: "When you're allowed to process data",
         matchText: `
+        When you're allowed to process data
         Processing shall be lawful only if and to the extent that at least one of the following applies:
 the data subject has given consent to the processing of his or her personal data for one or more specific purposes;
 processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;
@@ -115,6 +116,7 @@ In order to ensure that consent is freely given, consent should not provide a va
     {
         name: "Data protection by design and by default",
         matchText: `
+        Data protection by design and by default
         Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the processing, the controller shall, both at the time of the determination of the means for processing and at the time of the processing itself, implement appropriate technical and organisational measures, such as pseudonymisation, which are designed to implement data-protection principles, such as data minimisation, in an effective manner and to integrate the necessary safeguards into the processing in order to meet the requirements of this Regulation and protect the rights of data subjects.
 The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and their accessibility. In particular, such measures shall ensure that by default personal data are not made accessible without the individual’s intervention to an indefinite number of natural persons.
 An approved certification mechanism pursuant to Article 42 may be used as an element to demonstrate compliance with the requirements set out in paragraphs 1 and 2 of this Article.
@@ -148,6 +150,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Designation of the data protection officer",
         matchText: `
+        Designation of the data protection officer
         The controller and the processor shall designate a data protection officer in any case where:
         the processing is carried out by a public authority or body, except for courts acting in their judicial capacity;
         the core activities of the controller or the processor consist of processing operations which, by virtue of their nature, their scope and/or their purposes, require regular and systematic monitoring of data subjects on a large scale; or
@@ -170,6 +173,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Position of the data protection officer",
         matchText: `
+        Position of the data protection officer
         The controller and the processor shall ensure that the data protection officer is involved, properly and in a timely manner, in all issues which relate to the protection of personal data.
         The controller and processor shall support the data protection officer in performing the tasks referred to in Article 39 by providing resources necessary to carry out those tasks and access to personal data and processing operations, and to maintain his or her expert knowledge.
         The controller and processor shall ensure that the data protection officer does not receive any instructions regarding the exercise of those tasks. He or she shall not be dismissed or penalised by the controller or the processor for performing his tasks. The data protection officer shall directly report to the highest management level of the controller or the processor.
@@ -188,6 +192,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Tasks of the data protection officer",
         matchText: `
+        Tasks of the data protection officer
         The data protection officer shall have at least the following tasks:
         to inform and advise the controller or the processor and the employees who carry out processing of their obligations pursuant to this Regulation and to other Union or Member State data protection provisions;
         to monitor compliance with this Regulation, with other Union or Member State data protection provisions and with the policies of the controller or processor in relation to the protection of personal data, including the assignment of responsibilities, awareness-raising and training of staff involved in processing operations, and the related audits;
@@ -210,6 +215,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Transparent information, communication and modalities for the exercise of the rights of the data subject",
         matchText: `
+        Transparent information, communication and modalities for the exercise of the rights of the data subject
         The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child. The information shall be provided in writing, or by other means, including, where appropriate, by electronic means. When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.
         The controller shall facilitate the exercise of data subject rights under Articles 15 to 22. In the cases referred to in Article 11(2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.
         The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request. That period may be extended by two further months where necessary, taking into account the complexity and number of the requests. The controller shall inform the data subject of any such extension within one month of receipt of the request, together with the reasons for the delay. Where the data subject makes the request by electronic form means, the information shall be provided by electronic means where possible, unless otherwise requested by the data subject.
@@ -236,6 +242,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Information to be provided where personal data are collected from the data subject",
         matchText: `
+        Information to be provided where personal data are collected from the data subject
         Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:
         the identity and the contact details of the controller and, where applicable, of the controller's representative;
         the contact details of the data protection officer, where applicable;
@@ -266,6 +273,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Information to be provided where personal data have not been obtained from the data subject",
         matchText: `
+        Information to be provided where personal data have not been obtained from the data subject
         Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information:
         the identity and the contact details of the controller and, where applicable, of the controller’s representative;
         the contact details of the data protection officer, where applicable;
@@ -305,6 +313,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Right of access by the data subject",
         matchText: `
+        Right of access by the data subject
         The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:
         the purposes of the processing;
         the categories of personal data concerned;
@@ -331,6 +340,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Right to rectification",
         matchText: `
+        Right to rectification
         The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.
         `,
         gdpr_article: "https://gdpr.eu/article-16-right-to-rectification/",
@@ -346,6 +356,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Right to erasure ('right to be forgotten')",
         matchText: `
+        Right to erasure ('right to be forgotten')
         The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:
         the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;
         the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;
@@ -374,6 +385,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Right to restriction of processing",
         matchText: `
+        Right to restriction of processing
         The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies:
         the accuracy of the personal data is contested by the data subject, for a period enabling the controller to verify the accuracy of the personal data;
         the processing is unlawful and the data subject opposes the erasure of the personal data and requests the restriction of their use instead;
@@ -395,6 +407,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Notification obligation regarding rectification or erasure of personal data or restriction of processing",
         matchText: `
+        Notification obligation regarding rectification or erasure of personal data or restriction of processing
         The controller shall communicate any rectification or erasure of personal data or restriction of processing carried out in accordance with Article 16, Article 17(1) and Article 18 to each recipient to whom the personal data have been disclosed, unless this proves impossible or involves disproportionate effort. The controller shall inform the data subject about those recipients if the data subject requests it.
         `,
         gdpr_article: "https://gdpr.eu/article-19-notification-obligation/",
@@ -410,6 +423,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Right to data portability",
         matchText: `
+        Right to data portability
         The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where:
         the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and
         the processing is carried out by automated means.
@@ -430,6 +444,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Right to object",
         matchText: `
+        Right to object
         The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions. The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.
         Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.
         Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.
@@ -450,6 +465,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Automated individual decision-making, including profiling",
         matchText: `
+        Automated individual decision-making, including profiling
         The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.
         Paragraph 1 shall not apply if the decision:
         is necessary for entering into, or performance of, a contract between the data subject and a data controller;
@@ -471,6 +487,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Restrictions",
         matchText: `
+        Restrictions
         Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 22 and Article 34, as well as Article 5 in so far as its provisions correspond to the rights and obligations provided for in Articles 12 to 22, when such a restriction respects the essence of the fundamental rights and freedoms and is a necessary and proportionate measure in a democratic society to safeguard:
         national security;
         defence;
@@ -504,6 +521,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Data protection principles",
         matchText: `
+        Data protection principles
         Principles relating to processing of personal data
         1. Personal data shall be: \n
         \t a. processed lawfully, fairly and in a transparent manner in relation to the data subject (‘lawfulness, fairness and transparency’); \n
@@ -531,6 +549,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Processing of personal data",
         matchText: `
+        Processing of personal data
         Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person’s sex life or sexual orientation shall be prohibited.
         Paragraph 1 shall not apply if one of the following applies:
             the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;
@@ -552,6 +571,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Processing which does not require identification",
         matchText: `
+        Processing which does not require identification
         If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller, the controller shall not be obliged to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation.
         Where, in cases referred to in paragraph 1 of this Article, the controller is able to demonstrate that it is not in a position to identify the data subject, the controller shall inform the data subject accordingly, if possible. In such cases, Articles 15 to 20 shall not apply except where the data subject, for the purpose of exercising his or her rights under those articles, provides additional information enabling his or her identification.`,
         gdpr_article: "https://gdpr.eu/article-11-what-personal-data-can-a-controller-process-without-identification/",
@@ -560,6 +580,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Accountability",
         matchText: `
+        Accountability
         The GDPR says data controllers have to be able to demonstrate they are GDPR compliant. And this isn’t something you can do after the fact: If you think you are compliant with the GDPR but can’t show how, then you’re not GDPR compliant. Among the ways you can do this:
 		\t - Designate data protection responsibilities to your team.\n
 		\t - Maintain detailed documentation of the data you’re collecting, how it’s used, where it’s stored, which employee is responsible for it, etc.\n
@@ -573,6 +594,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Position of the data protection officer",
         matchText: `
+        Position of the data protection officer
         The controller and the processor shall ensure that the data protection officer is involved, properly and in a timely manner, in all issues which relate to the protection of personal data.
         The controller and processor shall support the data protection officer in performing the tasks referred to in Article 39 by providing resources necessary to carry out those tasks and access to personal data and processing operations, and to maintain his or her expert knowledge.
         The controller and processor shall ensure that the data protection officer does not receive any instructions regarding the exercise of those tasks. He or she shall not be dismissed or penalised by the controller or the processor for performing his tasks. The data protection officer shall directly report to the highest management level of the controller or the processor.
@@ -587,6 +609,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Security of processing",
         matchText: `
+        Security of processing
 	Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:
 	the pseudonymisation and encryption of personal data;
 	the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services;
@@ -603,6 +626,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Appropriate technical and organizational measures",
         matchText: `
+        Appropriate technical and organizational measures
 	The protection of the rights and freedoms of natural persons with regard to the processing of personal data require that appropriate technical and organisational measures be taken to ensure that the requirements of this Regulation are met. In order to be able to demonstrate compliance with this Regulation, the controller should adopt internal policies and implement measures which meet in particular the principles of data protection by design and data protection by default. Such measures could consist, inter alia, of minimising the processing of personal data, pseudonymising personal data as soon as possible, transparency with regard to the functions and processing of personal data, enabling the data subject to monitor the data processing, enabling the controller to create and improve security features. When developing, designing, selecting and using applications, services and products that are based on the processing of personal data or process personal data to fulfil their task, producers of the products, services and applications should be encouraged to take into account the right to data protection when developing and designing such products, services and applications and, with due regard to the state of the art, to make sure that controllers and processors are able to fulfil their data protection obligations. The principles of data protection by design and by default should also be taken into consideration in the context of public tenders.`,
         gdpr_article: "https://gdpr.eu/recital-78-appropriate-technical-and-organisational-measures/",
         aws_solution: [
@@ -613,6 +637,7 @@ In order to enhance transparency and compliance with this Regulation, the establ
     {
         name: "Data protection and working remotely",
         matchText: `
+        Data protection and working remotely
 	These new circumstances demand a different security stance than working from centralized offices. Especially when it comes to maintaining the data security that the GDPR requires. The GDPR, in general, requires that companies keep personal data private and secure.
 	Many employees who are not familiar with data security issues may not grasp how a simple slip-up on their part could lead to a data breach that exposes the personal data you are charged to protect. These data breaches can not only undermine consumer confidence in your company but also lead to costly GDPR fines. 
         A cybersecurity policy that instructs on how to keep the data safe is an important tool in data protection. Since everyone began working from home, this is the time to do so. A good place to start is by reviewing the NIST cybersecurity framework, which provides with a set of best-practice guidelines for all stages of threat identification and mitigation. 

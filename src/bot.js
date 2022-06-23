@@ -104,7 +104,7 @@ bot.on('message', message => {
             }
         })
 
-        output.push("Would you also like to see the AWS solution for the matched articles ?")
+        output.push("Would you also like to see the AWS solution for the matched articles?")
         bot.sendMessage(message.chat.id, output.join('\n'), {
             parse_mode: 'Markdown',
             disable_web_page_preview: true,
